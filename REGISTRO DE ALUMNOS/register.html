@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Bienvenido al Sistema Escolar de Alumnos</h1>
+        <img src="logo.png" alt="">
+        
+    </header>
+    <div class="search">
+        <input type="text" id="txtbusqueda" placeholder="buscar estudiante">
+        <button onclick="buscarpormatricula();">busqueda</button>
+    </div>
+    <main class="container">
+        <h2> Universidad Autónoma de Baja California</h2>
+        <h3>Registrar a nuevo estudiante</h3>
+   
+        <div class="form">
+                <input type="text" placeholder="ingresa el nombre del estudiante" id="txtNombre">
+                <input type="text"placeholder="ingresa el correo del estudiante" id="txtCorreo">
+                <input type="numero" id="txtEdad" placeholder="Edad estudiante">
+                <input type="text" id="txtGenero" placeholder="Genero">
+                <input type="text" id="txtMatricula" placeholder="Matricula">
+
+            <select class="form" id="selcampus" placeholder="selecciona el campus:">
+                <option value="" disabled selected>-- Selecciona un Campus</option>
+                <option value="campus">Mexicali</option>
+                <option value="campus">Ensenada</option>
+                <option value="campus">Tijuana</option>
+                </select>
+            
+            
+
+            <button class="btn btn-dark" onclick="register();">Registrar</button>
+        </div>
+
+        
+    </main>
+    <section class="container">
+        <h2>Lista de estudiantes</h2>
+    <table> class="">
+        <thead>
+            <th>nombre</th>
+            <th>Calf A </th>
+            <th>Calf B </th>
+            <th>Calf C </th>
+            <th>Promedio</th>
+            <th></th>
+        </thead>
+        <tbody id="alumnosTabla">
+
+        </tbody>
+        
+    </table>
+
+    </section>
+    <script src = "scripts/register.js"></script>
+
+</body>
+</html>

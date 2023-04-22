@@ -1,0 +1,76 @@
+.form{
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px rgb(83, 83, 83);
+}
+
+.btn-dark{
+    background-color: #5a5a5a;
+    margin-top: 10px
+    
+   
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+input,select{
+    width: 50%;
+    padding: 2px;
+    border: 1px solid gray;
+    margin: 5px;
+}
+
+nav.menu{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid black;
+    height: 36px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+nav.menu a{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.main-menu{
+    background-color: rgb(255, 180, 95);
+    text-align: center;
+    font-size: 30px;
+}
+
+div{
+    text-align: center;
+}
+
+input, select{
+    width: 400px;
+}
+
+.input-container{
+    margin-bottom: 50px;
+    border: 1px solid black;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+button{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.search{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
